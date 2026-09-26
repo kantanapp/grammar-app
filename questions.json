@@ -1,0 +1,881 @@
+{
+  "version": 1,
+  "terms": {
+    "A": "Simple subject",
+    "B": "Simple predicate",
+    "C": "Complete subject",
+    "D": "Complete predicate",
+    "E": "Compound subject",
+    "F": "Compound predicate"
+  },
+  "sets": [
+    {
+      "id": "original",
+      "title": "School practice test (1-18)",
+      "questions": [
+        {
+          "id": "original-01",
+          "type": "definition",
+          "prompt": "The main verb; the main action that the subject is doing",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "\"The main verb\" = just the one key action word."
+        },
+        {
+          "id": "original-02",
+          "type": "definition",
+          "prompt": "All the words that show together what the subject is doing",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "\"All the words\" about what the subject is doing = the whole predicate."
+        },
+        {
+          "id": "original-03",
+          "type": "definition",
+          "prompt": "The main person, place, or thing doing the action in a sentence",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "The one key noun of the subject."
+        },
+        {
+          "id": "original-04",
+          "type": "definition",
+          "prompt": "When the subject is doing more than one action in a sentence",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "More than one action = more than one verb."
+        },
+        {
+          "id": "original-05",
+          "type": "definition",
+          "prompt": "All the words that state and describe the subject",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "\"All the words\" that name and describe the subject."
+        },
+        {
+          "id": "original-06",
+          "type": "definition",
+          "prompt": "When there is more than one subject in a sentence",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "More than one subject = compound subject."
+        },
+        {
+          "id": "original-07",
+          "type": "label",
+          "prompt": "Brutus",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "One noun with no describing words."
+        },
+        {
+          "id": "original-08",
+          "type": "label",
+          "prompt": "Brutus Buckeye, Ohio State's mascot, ...",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "Brutus Buckeye plus the renaming phrase Ohio State's mascot."
+        },
+        {
+          "id": "original-09",
+          "type": "label",
+          "prompt": "Brutus Buckeye and the Jedi Knights",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Two subjects joined by and."
+        },
+        {
+          "id": "original-10",
+          "type": "label",
+          "prompt": "is",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "A single verb."
+        },
+        {
+          "id": "original-11",
+          "type": "label",
+          "prompt": "is running to the store",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The verb is running plus to the store. (is running alone = simple predicate)"
+        },
+        {
+          "id": "original-12",
+          "type": "label",
+          "prompt": "went to the store and bought an Xbox",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Two actions, went and bought, joined by and."
+        },
+        {
+          "id": "original-13",
+          "type": "label",
+          "prompt": "[[Mrs. Harding and Ms. Garcia]] drink different flavors of tea.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Two people joined by and."
+        },
+        {
+          "id": "original-14",
+          "type": "label",
+          "prompt": "Mrs. Harding and Ms. Garcia [[drink]] different flavors of tea.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the single verb drink."
+        },
+        {
+          "id": "original-15",
+          "type": "label",
+          "prompt": "Mrs. Harding and Ms. Garcia [[drink different flavors of tea]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The verb plus everything after it. Only one verb, so not compound."
+        },
+        {
+          "id": "original-16",
+          "type": "label",
+          "prompt": "Although it was late at night, [[we]] still went to the movie premiere.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "The main part is we still went... The word it belongs to the extra (dependent) part."
+        },
+        {
+          "id": "original-17",
+          "type": "label",
+          "prompt": "[[The student]] did well on the grammar test.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The + student = complete subject. (student alone = simple subject)"
+        },
+        {
+          "id": "original-18",
+          "type": "label",
+          "prompt": "The student [[studied hard and succeeded on the test]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Two actions, studied and succeeded, joined by and."
+        }
+      ]
+    },
+    {
+      "id": "practice0",
+      "title": "Practice 1-10",
+      "questions": [
+        {
+          "id": "practice0-01",
+          "type": "label",
+          "prompt": "The tall [[giraffe]] ate leaves from the tree.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Giraffe is the one key noun."
+        },
+        {
+          "id": "practice0-02",
+          "type": "label",
+          "prompt": "[[The tall giraffe]] ate leaves from the tree.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The key noun plus The tall."
+        },
+        {
+          "id": "practice0-03",
+          "type": "label",
+          "prompt": "[[My brother and my cousin]] played soccer after school.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Two subjects joined by and."
+        },
+        {
+          "id": "practice0-04",
+          "type": "label",
+          "prompt": "The puppy [[barked]] loudly at the mail carrier.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the main verb barked."
+        },
+        {
+          "id": "practice0-05",
+          "type": "label",
+          "prompt": "The puppy [[barked loudly at the mail carrier]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The verb plus everything after it."
+        },
+        {
+          "id": "practice0-06",
+          "type": "label",
+          "prompt": "Grandma [[baked cookies and packed them in a box]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Two actions: baked and packed."
+        },
+        {
+          "id": "practice0-07",
+          "type": "label",
+          "prompt": "After the storm ended, the [[children]] ran outside.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "The main part is the children ran outside."
+        },
+        {
+          "id": "practice0-08",
+          "type": "label",
+          "prompt": "[[Lions, tigers, and bears]] live at the zoo.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Three subjects joined by commas and and."
+        },
+        {
+          "id": "practice0-09",
+          "type": "fragment",
+          "prompt": "Running down the hallway.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "No subject and no complete verb. Fix: Maya was running down the hallway."
+        },
+        {
+          "id": "practice0-10",
+          "type": "fragment",
+          "prompt": "The red bicycle in the garage.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "No predicate. Fix: The red bicycle in the garage has a flat tire."
+        }
+      ]
+    },
+    {
+      "id": "set1",
+      "title": "Set 1 (practice)",
+      "questions": [
+        {
+          "id": "set1-01",
+          "type": "label",
+          "prompt": "[[The hungry bear]] searched for honey.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The key noun bear plus its describing words The hungry = complete subject."
+        },
+        {
+          "id": "set1-02",
+          "type": "label",
+          "prompt": "My aunt [[sings and dances in the talent show]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "One subject (my aunt) doing two actions: sings and dances."
+        },
+        {
+          "id": "set1-03",
+          "type": "label",
+          "prompt": "The [[bus]] stopped at the corner.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Only the one key noun bus is underlined. The is not included."
+        },
+        {
+          "id": "set1-04",
+          "type": "label",
+          "prompt": "[[Pizza and tacos]] are my favorite foods.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Two subjects joined by and."
+        },
+        {
+          "id": "set1-05",
+          "type": "label",
+          "prompt": "The kids [[laughed]] at the funny movie.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the main verb laughed is underlined."
+        },
+        {
+          "id": "set1-06",
+          "type": "label",
+          "prompt": "Our teacher [[read a story to the class]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The verb read plus everything after it. Only one verb, so it is not compound."
+        },
+        {
+          "id": "set1-07",
+          "type": "label",
+          "prompt": "[[Dad and I]] washed the car on Saturday.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Two subjects, Dad and I, joined by and."
+        },
+        {
+          "id": "set1-08",
+          "type": "label",
+          "prompt": "Because it was raining, [[we]] played board games inside.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "The main part is we played board games inside. \"Because it was raining\" is an extra (dependent) part, so it is not the main subject."
+        },
+        {
+          "id": "set1-09",
+          "type": "fragment",
+          "prompt": "Jumped over the fence.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "There is no subject. Who jumped? Fix: The dog jumped over the fence."
+        },
+        {
+          "id": "set1-10",
+          "type": "fragment",
+          "prompt": "The bell rang.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "S",
+          "explanation": "It is short, but it has a subject (The bell) and a predicate (rang). That makes it complete."
+        }
+      ]
+    },
+    {
+      "id": "set2",
+      "title": "Set 2 (practice)",
+      "questions": [
+        {
+          "id": "set2-01",
+          "type": "label",
+          "prompt": "The students [[cleaned the classroom and packed their bags]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Two actions, cleaned and packed, joined by and."
+        },
+        {
+          "id": "set2-02",
+          "type": "label",
+          "prompt": "[[Several small birds]] sat on the wire.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The key noun birds plus Several small = complete subject."
+        },
+        {
+          "id": "set2-03",
+          "type": "label",
+          "prompt": "The baby [[smiled at her mother]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The verb smiled plus the words after it. One verb only."
+        },
+        {
+          "id": "set2-04",
+          "type": "label",
+          "prompt": "My [[friend]] lives across the street.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Only the key noun friend is underlined. My is a describing word."
+        },
+        {
+          "id": "set2-05",
+          "type": "label",
+          "prompt": "[[Tom, Lisa, and Kenji]] joined the art club.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Three subjects joined with commas and and."
+        },
+        {
+          "id": "set2-06",
+          "type": "label",
+          "prompt": "The chef [[chopped]] the onions quickly.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the main verb chopped is underlined."
+        },
+        {
+          "id": "set2-07",
+          "type": "label",
+          "prompt": "[[The old wooden bridge]] creaked in the wind.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The key noun bridge plus The old wooden = complete subject."
+        },
+        {
+          "id": "set2-08",
+          "type": "label",
+          "prompt": "The cat [[stretched, yawned, and fell asleep]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Three actions: stretched, yawned, fell. More than one = compound predicate."
+        },
+        {
+          "id": "set2-09",
+          "type": "fragment",
+          "prompt": "She smiled.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "S",
+          "explanation": "It has a subject (She) and a predicate (smiled). Short sentences can still be complete."
+        },
+        {
+          "id": "set2-10",
+          "type": "fragment",
+          "prompt": "My best friend from Texas.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "There is a subject but no predicate. What did the friend do? Fix: My best friend from Texas visited me."
+        }
+      ]
+    },
+    {
+      "id": "set3",
+      "title": "Set 3 (practice)",
+      "questions": [
+        {
+          "id": "set3-01",
+          "type": "label",
+          "prompt": "When the movie ended, the [[audience]] clapped.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "The main part is the audience clapped. \"When the movie ended\" is an extra (dependent) part, so movie is not the main subject."
+        },
+        {
+          "id": "set3-02",
+          "type": "label",
+          "prompt": "The runners [[crossed the finish line]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The verb crossed plus everything after it."
+        },
+        {
+          "id": "set3-03",
+          "type": "label",
+          "prompt": "[[Apples or bananas]] make a healthy snack.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "Two subjects joined by or. Compound subjects can use or as well as and."
+        },
+        {
+          "id": "set3-04",
+          "type": "label",
+          "prompt": "Mom [[locked the door and turned off the lights]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Two actions, locked and turned, joined by and."
+        },
+        {
+          "id": "set3-05",
+          "type": "label",
+          "prompt": "The team [[won]] the championship.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the main verb won is underlined."
+        },
+        {
+          "id": "set3-06",
+          "type": "label",
+          "prompt": "[[My little brother's soccer coach]] blew the whistle.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The key noun is coach. All the words before it describe him, so this is the complete subject."
+        },
+        {
+          "id": "set3-07",
+          "type": "label",
+          "prompt": "The dog [[was sleeping]] under the table.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "was sleeping is a helping verb + main verb. Together they count as ONE verb, so it is the simple predicate."
+        },
+        {
+          "id": "set3-08",
+          "type": "label",
+          "prompt": "The wind [[howled and shook the windows]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "Two actions, howled and shook, joined by and."
+        },
+        {
+          "id": "set3-09",
+          "type": "fragment",
+          "prompt": "Birds sing.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "S",
+          "explanation": "Only two words, but it has a subject (Birds) and a predicate (sing)."
+        },
+        {
+          "id": "set3-10",
+          "type": "fragment",
+          "prompt": "Under the big oak tree.",
+          "choices": [
+            "S",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "It has no subject and no verb. It only tells a place. Fix: We ate lunch under the big oak tree."
+        }
+      ]
+    }
+  ]
+}

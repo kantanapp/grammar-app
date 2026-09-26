@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Subject &amp; Predicate Practice</title>
+<meta name="description" content="Practice subjects and predicates, one question at a time.">
+<meta name="theme-color" content="#2563eb">
+<meta name="color-scheme" content="light dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Grammar">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ===== Home ===== -->
+  <section id="screen-home" class="screen">
+    <header class="app-header">
+      <h1>Subject &amp; Predicate Practice</h1>
+      <p class="tagline">Pick a set and start practicing.</p>
+    </header>
+
+    <h2 class="section-title">Question sets</h2>
+    <div id="set-list" class="stack"></div>
+
+    <h2 class="section-title">More</h2>
+    <div class="stack">
+      <button id="btn-mix" class="card-btn" type="button">
+        <span class="card-btn__main">
+          <span class="card-btn__title">Mix all</span>
+          <span class="card-btn__sub">10 random questions from all sets</span>
+        </span>
+        <span id="mix-scores" class="card-btn__scores"></span>
+      </button>
+
+      <button id="btn-review" class="card-btn" type="button">
+        <span class="card-btn__main">
+          <span class="card-btn__title">Review mistakes</span>
+          <span id="review-sub" class="card-btn__sub">Questions you got wrong before</span>
+        </span>
+      </button>
+      <p id="review-empty" class="note" hidden>No mistakes to review yet.</p>
+
+      <button id="btn-cheat" class="card-btn" type="button">
+        <span class="card-btn__main">
+          <span class="card-btn__title">Cheat sheet</span>
+          <span class="card-btn__sub">What the six terms mean</span>
+        </span>
+      </button>
+    </div>
+
+    <h2 class="section-title">Settings</h2>
+    <div class="stack">
+      <button id="btn-reset" class="btn btn-quiet" type="button">Reset progress</button>
+      <p class="note">Your scores are saved only on this device.</p>
+    </div>
+  </section>
+
+  <!-- ===== Quiz ===== -->
+  <section id="screen-quiz" class="screen" hidden>
+    <div class="topbar">
+      <button id="btn-quiz-home" class="btn-back" type="button">&#8592; Home</button>
+      <span id="quiz-title" class="topbar__title"></span>
+      <span id="quiz-count" class="topbar__count"></span>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress">
+      <div id="progress-fill" class="progress__fill"></div>
+    </div>
+
+    <p id="question-type" class="question-type"></p>
+    <p id="question-prompt" class="question-prompt"></p>
+
+    <div id="choices" class="choices"></div>
+
+    <div id="feedback" class="feedback" role="status" aria-live="polite" hidden>
+      <p id="feedback-verdict" class="feedback__verdict"></p>
+      <p id="feedback-explanation" class="feedback__explanation"></p>
+    </div>
+
+    <button id="btn-next" class="btn btn-primary" type="button" hidden>Next</button>
+  </section>
+
+  <!-- ===== Results ===== -->
+  <section id="screen-results" class="screen" hidden>
+    <div class="topbar">
+      <span class="topbar__title" id="results-title"></span>
+    </div>
+    <div class="score-box">
+      <p class="score" id="score"></p>
+      <p class="score-note" id="score-note"></p>
+    </div>
+
+    <h2 class="section-title" id="missed-title" hidden>Questions to review</h2>
+    <div id="missed-list" class="stack"></div>
+
+    <div class="stack stack--actions">
+      <button id="btn-again" class="btn btn-primary" type="button">Try again</button>
+      <button id="btn-results-review" class="btn" type="button">Review mistakes</button>
+      <button id="btn-results-home" class="btn btn-quiet" type="button">Home</button>
+    </div>
+  </section>
+
+  <!-- ===== Cheat sheet ===== -->
+  <section id="screen-cheat" class="screen" hidden>
+    <div class="topbar">
+      <button id="btn-cheat-home" class="btn-back" type="button">&#8592; Home</button>
+      <span class="topbar__title">Cheat sheet</span>
+    </div>
+    <div id="cheat-list" class="stack"></div>
+    <p class="tip" id="cheat-tip"></p>
+  </section>
+
+  <p id="load-error" class="note note--error" hidden></p>
+
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
