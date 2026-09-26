@@ -1,7 +1,7 @@
 /* Service worker: cache everything on first visit, then serve from cache.
    Bump CACHE_NAME whenever any file changes (including questions.json). */
 
-var CACHE_NAME = 'grammar-v1';
+var CACHE_NAME = 'grammar-v2';
 
 var ASSETS = [
   './',

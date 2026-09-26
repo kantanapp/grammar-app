@@ -876,6 +876,615 @@
           "explanation": "It has no subject and no verb. It only tells a place. Fix: We ate lunch under the big oak tree."
         }
       ]
+    },
+    {
+      "id": "pdf2",
+      "title": "PDF Practice 2",
+      "questions": [
+        {
+          "id": "pdf2-01",
+          "type": "label",
+          "prompt": "The tall [[girl]] with red shoes won the race.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Only the word girl is underlined. It is the one main word that tells who won the race, so it is the simple subject."
+        },
+        {
+          "id": "pdf2-02",
+          "type": "label",
+          "prompt": "[[The tall girl with red shoes]] won the race.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The underlined part is the main word girl plus all the words that describe her (The tall ... with red shoes), so it is the complete subject."
+        },
+        {
+          "id": "pdf2-04",
+          "type": "label",
+          "prompt": "The baby [[laughed]] at the funny puppy.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the verb laughed is underlined, so it is the simple predicate."
+        },
+        {
+          "id": "pdf2-05",
+          "type": "label",
+          "prompt": "The baby [[laughed at the funny puppy]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The underlined part is the verb laughed plus all the words after it, so it is the complete predicate."
+        },
+        {
+          "id": "pdf2-06",
+          "type": "label",
+          "prompt": "Our teacher [[smiled and waved at the class]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "The teacher does two actions, smiled and waved, joined by and, so it is a compound predicate."
+        },
+        {
+          "id": "pdf2-07",
+          "type": "label",
+          "prompt": "After the game ended, [[we]] ate pizza together.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "We is one word, and it tells who ate the pizza, so it is the simple subject. Be careful: \"After the game ended\" is extra information at the beginning. It is not the subject of the sentence."
+        },
+        {
+          "id": "pdf2-08",
+          "type": "label",
+          "prompt": "[[Cats, dogs, and rabbits]] live at the animal shelter.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are three subjects (cats, dogs, rabbits) doing the same action, so it is a compound subject. A compound subject can have more than two parts!"
+        },
+        {
+          "id": "pdf2-09",
+          "type": "label",
+          "prompt": "The old wooden bridge [[creaked]] in the strong wind.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the verb creaked is underlined, so it is the simple predicate. Tip: \"old\" and \"wooden\" are describing words, not verbs."
+        },
+        {
+          "id": "pdf2-10",
+          "type": "label",
+          "prompt": "The students [[cleaned the classroom and went home]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "The students do two actions, cleaned and went, so it is a compound predicate."
+        }
+      ]
+    },
+    {
+      "id": "pdf3",
+      "title": "PDF Practice 3",
+      "questions": [
+        {
+          "id": "pdf3-01",
+          "type": "label",
+          "prompt": "[[My grandmother]] bakes bread every Sunday.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The underlined part is the main word grandmother plus the describing word My, so it is the complete subject."
+        },
+        {
+          "id": "pdf3-02",
+          "type": "label",
+          "prompt": "The children [[sang and danced at the festival]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "The children do two actions, sang and danced, joined by and, so it is a compound predicate."
+        },
+        {
+          "id": "pdf3-03",
+          "type": "label",
+          "prompt": "The small gray [[kitten]] slept on the sofa.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Only kitten is underlined. It is the one main word that tells who slept, so it is the simple subject."
+        },
+        {
+          "id": "pdf3-04",
+          "type": "label",
+          "prompt": "[[Tom and Lisa]] walked to the library.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are two people, joined by and, doing the same action, so it is a compound subject."
+        },
+        {
+          "id": "pdf3-05",
+          "type": "label",
+          "prompt": "The bus [[arrived]] late this morning.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the verb arrived is underlined, so it is the simple predicate."
+        },
+        {
+          "id": "pdf3-06",
+          "type": "label",
+          "prompt": "The bus [[arrived late this morning]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The underlined part is the verb arrived plus all the words after it, so it is the complete predicate."
+        },
+        {
+          "id": "pdf3-07",
+          "type": "label",
+          "prompt": "[[The best player on our team]] scored two goals.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The main word is player. The underlined part includes all the words that describe the player, so it is the complete subject."
+        },
+        {
+          "id": "pdf3-08",
+          "type": "label",
+          "prompt": "Before school started, [[Kenji]] finished his homework.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Kenji is one word, and he is the one who finished the homework, so it is the simple subject. \"Before school started\" is extra information."
+        },
+        {
+          "id": "pdf3-09",
+          "type": "label",
+          "prompt": "My dad [[washed the car and cut the grass]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "My dad does two actions, washed and cut, so it is a compound predicate."
+        },
+        {
+          "id": "pdf3-10",
+          "type": "label",
+          "prompt": "[[Apples and bananas]] are my favorite fruits.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are two subjects, apples and bananas, joined by and, so it is a compound subject."
+        }
+      ]
+    },
+    {
+      "id": "pdf4",
+      "title": "PDF Practice 4",
+      "questions": [
+        {
+          "id": "pdf4-01",
+          "type": "label",
+          "prompt": "The hungry lion [[roared]] at the crowd.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the verb roared is underlined, so it is the simple predicate."
+        },
+        {
+          "id": "pdf4-02",
+          "type": "label",
+          "prompt": "[[Sara, Mike, and Ben]] joined the art club.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are three people doing the same action, so it is a compound subject."
+        },
+        {
+          "id": "pdf4-03",
+          "type": "label",
+          "prompt": "[[The girl in the blue jacket]] is my best friend.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The main word is girl. The underlined part includes all the words that describe her, so it is the complete subject."
+        },
+        {
+          "id": "pdf4-04",
+          "type": "label",
+          "prompt": "The birds [[flew over the lake]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The underlined part is the verb flew plus all the words after it, so it is the complete predicate."
+        },
+        {
+          "id": "pdf4-05",
+          "type": "label",
+          "prompt": "My little [[sister]] loves chocolate ice cream.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Only sister is underlined. It is the one main word, so it is the simple subject."
+        },
+        {
+          "id": "pdf4-06",
+          "type": "label",
+          "prompt": "The chef [[chopped the onions and stirred the soup]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "The chef does two actions, chopped and stirred, so it is a compound predicate."
+        },
+        {
+          "id": "pdf4-07",
+          "type": "label",
+          "prompt": "During the storm, [[the lights]] went out.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The underlined part is the main word lights plus the, so it is the complete subject. \"During the storm\" is extra information, not the subject."
+        },
+        {
+          "id": "pdf4-08",
+          "type": "label",
+          "prompt": "The students [[listened carefully to the speaker]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The underlined part is the verb listened plus all the words after it, so it is the complete predicate."
+        },
+        {
+          "id": "pdf4-09",
+          "type": "label",
+          "prompt": "[[Rain and wind]] hit the small town.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are two subjects, rain and wind, joined by and, so it is a compound subject."
+        },
+        {
+          "id": "pdf4-10",
+          "type": "label",
+          "prompt": "Our class [[visited]] the science museum.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the verb visited is underlined, so it is the simple predicate."
+        }
+      ]
+    },
+    {
+      "id": "pdf5",
+      "title": "PDF Practice 5",
+      "questions": [
+        {
+          "id": "pdf5-01",
+          "type": "label",
+          "prompt": "The friendly [[dog]] wagged its tail.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Only dog is underlined. It is the one main word that tells who wagged its tail, so it is the simple subject."
+        },
+        {
+          "id": "pdf5-02",
+          "type": "label",
+          "prompt": "My mom [[read the letter and smiled]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "My mom does two actions, read and smiled, so it is a compound predicate."
+        },
+        {
+          "id": "pdf5-03",
+          "type": "label",
+          "prompt": "[[The new students from Canada]] joined our class.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "C",
+          "explanation": "The main word is students. The underlined part includes all the words that describe them, so it is the complete subject."
+        },
+        {
+          "id": "pdf5-04",
+          "type": "label",
+          "prompt": "The sun [[rises in the east]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The underlined part is the verb rises plus all the words after it, so it is the complete predicate."
+        },
+        {
+          "id": "pdf5-05",
+          "type": "label",
+          "prompt": "[[Pencils and erasers]] are on sale today.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are two subjects, pencils and erasers, joined by and, so it is a compound subject."
+        },
+        {
+          "id": "pdf5-06",
+          "type": "label",
+          "prompt": "The movie [[ended]] at nine o'clock.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "B",
+          "explanation": "Only the verb ended is underlined, so it is the simple predicate."
+        },
+        {
+          "id": "pdf5-07",
+          "type": "label",
+          "prompt": "When the bell rang, [[everyone]] ran outside.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "A",
+          "explanation": "Everyone is one word, and it tells who ran outside, so it is the simple subject. \"When the bell rang\" is extra information."
+        },
+        {
+          "id": "pdf5-08",
+          "type": "label",
+          "prompt": "The team [[practiced hard and won the championship]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "F",
+          "explanation": "The team does two actions, practiced and won, so it is a compound predicate."
+        },
+        {
+          "id": "pdf5-09",
+          "type": "label",
+          "prompt": "[[My uncle and his dog]] went fishing.",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "E",
+          "explanation": "There are two subjects, my uncle and his dog, joined by and, so it is a compound subject."
+        },
+        {
+          "id": "pdf5-10",
+          "type": "label",
+          "prompt": "The flowers in the garden [[bloomed beautifully]].",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": "D",
+          "explanation": "The underlined part is the verb bloomed plus the word after it, so it is the complete predicate."
+        }
+      ]
     }
   ]
 }
